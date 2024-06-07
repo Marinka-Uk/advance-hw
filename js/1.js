@@ -66,6 +66,11 @@ const galleryItems = [
 
 
 
+//отримати посилання на велике зображення lightbox__image
+  //1. повісити слухача подій на юл
+  //2. зробити перевірку чи клікнули саме на gallery__image
+  //3.у event.target.dataset.source 
+  //4. записати  event.target.dataset.source  в src lightbox__image
 
   const galleryList = document.querySelector('.js-gallery')
   function createGalleryItems(images){
