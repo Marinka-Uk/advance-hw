@@ -9,15 +9,15 @@
       </head>
       <body>
         <!-- В этот список добавляй элементы галереи -->
-        <ul class="gallery js-gallery">
+        <!-- <ul class="gallery js-gallery">
             
-        </ul>
+        </ul> -->
     
         <!--
           Модальное окно для полноразмерного изображения
           Для того чтобы открыть, необходимо добавить на div.lightbox CSS-класс is-open
         -->
-        <div class="lightbox js-lightbox">
+        <!-- <div class="lightbox js-lightbox">
           <div class="lightbox__overlay"></div>
     
           <div class="lightbox__content">
@@ -29,10 +29,18 @@
             class="lightbox__button"
             data-action="close-lightbox"
           ></button>
-        </div>
+        </div> -->
     
+        <div class="slider">
+          <input type="range" min="1" max="100" value="50" class="slider__input" />
+          <img src="https://via.placeholder.com/300x300" class="slider__image" />
+      </div>
 
 
-    <script src="./js/1.js" type="module"></script>
+      <div id="box"></div>
+
+    <!-- <script src="./js/1.js" type="module"></script> -->
+    <script src="./js/2.js" type="module"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js" ></script>
 </body>
 </html>

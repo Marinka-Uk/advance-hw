@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --animation-duration: 250ms;
   }
@@ -65,7 +65,7 @@
   }
   
   /* Lightbox */
-  .lightbox {
+  /* .lightbox {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,4 +137,29 @@
   .lightbox__button:hover,
   .lightbox__button:focus {
     background-color: rgba(0, 0, 0, 0.5);
+  }
+ */ 
+
+
+
+  .slider {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .slider__input {
+    width: 100%;
+  }
+  
+  .slider__image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+
+  #box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
   }
