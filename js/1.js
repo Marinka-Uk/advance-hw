@@ -97,3 +97,16 @@ href="${image.preview}"
  
 
   galleryList.insertAdjacentHTML('beforeend', createGalleryItems(galleryItems))
+
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const myList = document.getElementById('lightbox');
+
+    myList.addEventListener('click', function(event) {
+        
+        if (event.target && event.target.nodeName === 'LI') {
+            console.log('Clicked item:', event.target.textContent);
+        }
+    });
+});
